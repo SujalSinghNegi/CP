@@ -1,0 +1,1 @@
+{"name":"Local: 2cpp","url":"d:\\all projects\\codeforces\\2cpp.cpp","tests":[{"id":1741619214041,"input":"2\n2 1\n3 2","output":"2 1\n2 3 2"},{"id":1741619790062,"input":"2\n5 3\n5 2","output":"5 5 5 5 4\n4 4 4 5 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\all projects\\codeforces\\2cpp.cpp","group":"local","local":true}
