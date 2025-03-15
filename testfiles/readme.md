@@ -13,11 +13,6 @@ For N= 8,
 Sum Up to 0 to 8 is  0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36 which is Even.
 So answer is EVEN.
 
-### Note : You are allowed to use 32bit integer only.
-
-### Expected Time Complexity: O(1)
-### Expected Space Complexity: O(1)
-
 
 Input Format: The first line contains the number of test cases t;
 The second line contains t test cases, each test case contains a number N.
@@ -30,5 +25,10 @@ The output is strictly in the following way [ALL CAPS] -> for ODD, print "ODD", 
 Constraints:
 1 <= N <= 2^31
 1 <= t <= 10^4
+
+### Note : You are allowed to use 32bit integer only.
+
+### Expected Time Complexity: O(1)
+### Expected Space Complexity: O(1)
 
 Author: Sujal Singh Negi. Date: 15-03-2025.
