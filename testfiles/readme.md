@@ -13,10 +13,10 @@ For N= 8,
 Sum Up to 0 to 8 is  0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36 which is Even.
 So answer is EVEN.
 
-## Note : You are allowed to use 32bit integer only.
+### Note : You are allowed to use 32bit integer only.
 
-# Expected Time Complexity: O(1)
-# Expected Space Complexity: O(1)
+### Expected Time Complexity: O(1)
+### Expected Space Complexity: O(1)
 
 
 Input Format: The first line contains the number of test cases t;
