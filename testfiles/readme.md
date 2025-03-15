@@ -22,7 +22,9 @@ So answer is EVEN.
 Input Format: The first line contains the number of test cases t;
 The second line contains t test cases, each test case contains a number N.
 
+
 Output Format: For each test case, print "ODD" if the sum is odd, "EVEN" if the sum is even.
+
 The output is strictly in the following way [ALL CAPS] -> for ODD, print "ODD", for EVEN, print "EVEN".
 
 Constraints:
