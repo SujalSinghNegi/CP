@@ -24,6 +24,7 @@ The output is strictly in the following way [ALL CAPS] -> for ODD, print "ODD", 
 
 Constraints:
 1 <= N <= 2^31
+
 1 <= t <= 10^4
 
 ### Note : You are allowed to use 32bit integer only.
