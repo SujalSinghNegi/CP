@@ -40,14 +40,7 @@ void solve(){
 cin>>n;
    
     yesno((n+3)%4 && (n+2)%4);
-    // pattern is odd odd, even even, 1 2    3  4       5   6       7  8        9  10 
-    //                        sum are 1 3    6  10      15  21      28 36       45 55
-    //                                o o    e  e       o    o      e  e        o  o
-    // 
-   
-
-
-   
+ 
 }
 int main() {
     std::ios::sync_with_stdio(false);

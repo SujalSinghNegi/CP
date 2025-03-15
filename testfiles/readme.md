@@ -1,7 +1,7 @@
 # Check ODD or EVEN
 Mode: Easy
 
-Question: You have given a number N. You have find out that Sum Up to 0 to N is ODD or EVEN.
+Question: You have given a number N. You have to find out that Sum Up to 0 to N is ODD or EVEN.
 
 
 Example-> 
