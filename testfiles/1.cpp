@@ -13,7 +13,7 @@ using namespace std;
 #define pll pair<ll,ll>
 #define all(x) x.begin(),x.end()
 #define sz(x) (int)x.size()
-//# include "func.h"
+# include "func.h"
 template <typename T>
 void printVector(const std::vector<T>& vec) {
     for (const T& val : vec) {
@@ -36,12 +36,14 @@ void yesno(bool cond) {
 }
 
 void solve(){
-//    ll n;
-// cin>>n;
-//     vi a(n);
-//     inputVector(a,n);
-    
-
+   ll n;
+cin>>n;
+   
+    yesno((n+3)%4 && (n+2)%4);
+    // pattern is odd odd, even even, 1 2    3  4       5   6       7  8        9  10 
+    //                        sum are 1 3    6  10      15  21      28 36       45 55
+    //                                o o    e  e       o    o      e  e        o  o
+    // 
    
 
 

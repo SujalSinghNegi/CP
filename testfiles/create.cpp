@@ -14,6 +14,8 @@ using namespace std;
 #define all(x) x.begin(),x.end()
 #define sz(x) (int)x.size()
 //# include "func.h"
+#include "my_stdio.h"
+
 template <typename T>
 void printVector(const std::vector<T>& vec) {
     for (const T& val : vec) {
@@ -36,13 +38,11 @@ void yesno(bool cond) {
 }
 
 void solve(){
-//    ll n;
-// cin>>n;
-//     vi a(n);
-//     inputVector(a,n);
-    
-
-   
+  //  ll n;
+  //  cin>>n;
+    for(int i=0; i<1000; i++){
+        
+    }
 
 
    
