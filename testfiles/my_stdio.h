@@ -5,8 +5,8 @@
 
 struct AutoRedirect {
     AutoRedirect() {
-        freopen("test1.txt", "r", stdin);   // Redirect input from input.txt
-        freopen("test1out.txt", "w", stdout); // Redirect output to output.txt
+        freopen("a.txt", "r", stdin);   // Redirect input from input.txt
+        freopen("b.txt", "w", stdout); // Redirect output to output.txt
         freopen("error.txt", "w", stderr);  // Redirect errors to error.txt
     }
     ~AutoRedirect() {
