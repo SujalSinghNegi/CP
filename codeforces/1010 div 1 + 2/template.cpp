@@ -36,10 +36,15 @@ void yesno(bool cond) {
 }
 
 void solve(){
-//    ll n;
-// cin>>n;
-//     vi a(n);
-//     inputVector(a,n);
+    int a, b;
+    cin>>a>>b;
+    if(abs(a-b)<=1){
+        cout<<a+b<<endl;
+        return;
+    }
+    if(a>b)swap(a, b);
+    cout<<2*b-1<<endl;
+
     
 
    

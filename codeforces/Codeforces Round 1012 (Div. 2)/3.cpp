@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -34,41 +35,7 @@ bool cond2();
 void yesno(bool cond) {
     std::cout << (cond ? "YES" : "NO") << std::endl;
 }
-class Solution {
-    public:
-        vector<int> solveQueries(vector<int>& nums, vector<int>& queries) {
-            int n=nums.size();
-            unordered_map<int,int> mp;
-            unordered_map<int,int>first;
-            for(int i=0;i<n;i++){
-                if(first.find(nums[i])!= first.end()){
-                    first[nums[i]]=i;
-                }
-            }
-            vector<int> ans(n,INT_MAX);
-            for(int i=0;i<n;i++){
-                if(mp.find(nums[i])==mp.end()){
-                    mp[nums[i]]=i;
-                }
-                else{
-                    int j=mp[nums[i]];
-                  ans[i]= min(i-j, n-i+first[nums[i]]);
-                    ans[j]= min(ans[j], ans[i]);
-                  mp[nums[i]]=i;
 
-                }
-
-            }
-            vector<int>res;
-            for(auto it:queries){
-                if(ans[nums[it]]==INT_MAX){
-                    res.push_back(-1);
-                }
-                else  res.push_back(ans[nums[it]]);
-            }
-            return res;
-        }
-    };
 void solve(){
 //    ll n;
 // cin>>n;
